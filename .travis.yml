@@ -10,5 +10,4 @@ cache:
 install: true
 # Run these scripts
 script:
-  - ./build/build.sh
-  - ./build/test.sh
+  - ./build/build-and-test.sh
