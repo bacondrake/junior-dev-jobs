@@ -9,7 +9,7 @@ Jobs for junior developers
 ### Change into folder
 
 `cd junior-dev-jobs`
-=======
+
 Repository address: https://github.com/mjhilton/junior_dev_jobs/
 
 * Fork repository
