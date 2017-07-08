@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Specifies to Travis the language to use
 language: node_js
 # Use the latest version of node
@@ -12,3 +13,18 @@ cache:
 # Run these scripts
 script:
   - ./build/build-and-test.sh
+=======
+# Specify the language used to Travis
+language: node_js
+# Specify the node version (to latest)
+node_js:
+  - "node"
+# Cache these directories so the same versions are not run/installed every time
+cache:
+  directories:
+    - "node_modules"
+install: true
+# Run these scripts
+script:
+  - ./build/build-and-test.sh
+>>>>>>> demo01c
