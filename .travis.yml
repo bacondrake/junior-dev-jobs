@@ -10,7 +10,8 @@ cache:
 install: true
 # Run these scripts
 script:
-  - ./build/build-and-test.sh
+  - ./build/build.sh
+  - ./build/test.sh
 
 # encrypted
 deploy:

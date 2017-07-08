@@ -4,7 +4,6 @@ Jobs for junior developers
 
 ### Fork & clone the repo
 
-<<<<<<< HEAD
 `git clone git@github.com:<youraccountname>/junior-dev-jobs.git`
 
 ### Change into folder
@@ -19,7 +18,6 @@ Repository address: https://github.com/mjhilton/junior_dev_jobs/
 ### Change into folder
 
 * `cd junior_dev_jobs`
->>>>>>> demo01c
 
 ### Install
 
