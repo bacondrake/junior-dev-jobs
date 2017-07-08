@@ -13,7 +13,7 @@ let db;
 let httpListenPort = process.env.PORT || 3000;
 let mongoDbUrl = process.env.MONGO_URL || 'mongodb://localhost/juniordevjobsdb';
 
-MongoClient.connect(mondoDbUrl, function(err, dbConnection) {
+MongoClient.connect(mongoDbUrl, function(err, dbConnection) {
   db = dbConnection;
   let server = app.listen(httpListenPort, function() {
 	  let port = server.address().port;
