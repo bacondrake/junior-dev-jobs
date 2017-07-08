@@ -16,8 +16,8 @@ script:
 # encrypted
 deploy:
   provider: heroku
-    app: frankpavey-jdjobs-dev
-    api_key:
-      secure: "Lo3LddEO9PqieK/KvWOP8uouJrc9eT67zxBRH/1CPlBRHCgv+UX2NC4I0eXuN4R7yYmchVUBR92kU992H4bDlPEBUUHsp/itWaYyv5Uke75xM+ggaSFKgQ+2sOT5/RBoybsGqeDCeY/p4VWBGPlimi26/PSTjzylfkVfDoEexuCns81Bo/ktTLCu2s9/lecHaeIp3AmPGiPczsTZychMmojMl8VJtIq41rOIxdzTHv6xc2CC51dAg7KTUmrG9aQaUzpBKSnTW530B+/XWL79RIdq0uezuIr3qX+HXXLi9adxrbTVpRYaNfreKyRaeRQpRmNzC7iYsxJW9Og/wf2+A7R+Cfc0D5geLRiELu/J+moxLx3QWkLM2kk4r2ZvLmv4G8KlOS+hCUqjTB9uv4kC1HNO6SZvUAaSnZTc1qgVdIw0CJRK9rhQrLVeAdH9/Cc+rnPVEFD3giHzVZziQ+uZVjSTFJkkFRAQQCYbE2HoZ8Ps4VA6Uz0XCHYyfvvFOT6+zV7DlivPwpawqCGkgxgTX1LM/wu4H1Ja7FM+PeDMkpBLe3dnGSsG1xErVFZtp+V+gijKTFU1Hua7PgbO2LlV2u2gvzG3rRNjKcYUtYqcV2y0RBfGebaAsU+iAsMWMChSOyn8dLGbixwPhXgkgZnPGNCA4++JwfmGkeHtJly5Vjo="
-    on:
-      all_branches: true
+  app: frankpavey-jdjobs-dev
+  api_key:
+    secure: "Lo3LddEO9PqieK/KvWOP8uouJrc9eT67zxBRH/1CPlBRHCgv+UX2NC4I0eXuN4R7yYmchVUBR92kU992H4bDlPEBUUHsp/itWaYyv5Uke75xM+ggaSFKgQ+2sOT5/RBoybsGqeDCeY/p4VWBGPlimi26/PSTjzylfkVfDoEexuCns81Bo/ktTLCu2s9/lecHaeIp3AmPGiPczsTZychMmojMl8VJtIq41rOIxdzTHv6xc2CC51dAg7KTUmrG9aQaUzpBKSnTW530B+/XWL79RIdq0uezuIr3qX+HXXLi9adxrbTVpRYaNfreKyRaeRQpRmNzC7iYsxJW9Og/wf2+A7R+Cfc0D5geLRiELu/J+moxLx3QWkLM2kk4r2ZvLmv4G8KlOS+hCUqjTB9uv4kC1HNO6SZvUAaSnZTc1qgVdIw0CJRK9rhQrLVeAdH9/Cc+rnPVEFD3giHzVZziQ+uZVjSTFJkkFRAQQCYbE2HoZ8Ps4VA6Uz0XCHYyfvvFOT6+zV7DlivPwpawqCGkgxgTX1LM/wu4H1Ja7FM+PeDMkpBLe3dnGSsG1xErVFZtp+V+gijKTFU1Hua7PgbO2LlV2u2gvzG3rRNjKcYUtYqcV2y0RBfGebaAsU+iAsMWMChSOyn8dLGbixwPhXgkgZnPGNCA4++JwfmGkeHtJly5Vjo="
+  on:
+    all_branches: true
