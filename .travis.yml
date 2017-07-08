@@ -1,6 +1,14 @@
+# Specifies to Travis the language to use
 language: node_js
+# Use the latest version of node
+node_js:
+  - "node"
+
+# Caches the node_modules directory so travis doesn't install the same thing after every commit.
 cache:
   directories:
     - node_modules
+
+# Run these scripts
 script:
   - ./build/build.sh
